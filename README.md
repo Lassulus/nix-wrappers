@@ -2,9 +2,9 @@ nix-wrappers is a nix/nixos based library which uses the module system to genera
 
 this solves similiar problems like nixos, nix-darwin or home-manager. but allows usage on all different systems with just nix installed and easier composability, since the output is just a package which can be used in different ways, like:
 
-inside a systemd-service
-just a package in your $PATG
-inside a dev shell
+- inside a systemd-service
+- just a package in your $PATG
+- inside a dev shell
 
 
 some examples:
